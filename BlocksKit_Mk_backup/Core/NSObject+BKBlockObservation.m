@@ -4,10 +4,8 @@
 //
 
 #import "NSObject+BKBlockObservation.h"
-//@import ObjectiveC.runtime;
-//@import ObjectiveC.message;
-#import <objc/message.h>
-#import <objc/runtime.h>
+@import ObjectiveC.runtime;
+@import ObjectiveC.message;
 #import "NSArray+BlocksKit.h"
 #import "NSDictionary+BlocksKit.h"
 #import "NSSet+BlocksKit.h"

@@ -4,10 +4,8 @@
 //
 
 #import "A2DynamicDelegate.h"
-//@import ObjectiveC.message;
-//@import ObjectiveC.runtime;
-#import <objc/message.h>
-#import <objc/runtime.h>
+@import ObjectiveC.message;
+@import ObjectiveC.runtime;
 #import "A2BlockInvocation.h"
 
 Protocol *a2_dataSourceProtocol(Class cls);

@@ -4,8 +4,7 @@
 //
 
 #import "NSURLConnection+BlocksKit.h"
-//@import ObjectiveC.runtime;
-#import <objc/runtime.h>
+@import ObjectiveC.runtime;
 #import "A2DynamicDelegate.h"
 #import "NSObject+A2DynamicDelegate.h"
 #import "NSObject+A2BlockDelegate.h"

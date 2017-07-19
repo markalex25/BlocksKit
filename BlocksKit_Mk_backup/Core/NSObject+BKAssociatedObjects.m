@@ -4,8 +4,7 @@
 //
 
 #import "NSObject+BKAssociatedObjects.h"
-//@import ObjectiveC.runtime;
-#import <objc/runtime.h>
+@import ObjectiveC.runtime;
 
 #pragma mark - Weak support
 
