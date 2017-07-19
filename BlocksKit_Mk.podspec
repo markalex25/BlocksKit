@@ -17,6 +17,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'DynamicDelegate' do |ss|
+    ss.dependency 'BlocksKit_Mk/Core'
     ss.source_files = 'BlocksKit_Mk/DynamicDelegate/*.{h,m}', 'BlocksKit_Mk/DynamicDelegate/Foundation/*.{h,m}'
   end
 
