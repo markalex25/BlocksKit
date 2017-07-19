@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                  = 'BlocksKit_Mk'
-  s.version               = '2.2.9'
+  s.version               = '2.2.6'
   s.ios.deployment_target = '6.0'
   #s.osx.deployment_target = '10.8'
   #s.watchos.deployment_target = '2.0'
@@ -12,9 +12,9 @@ Pod::Spec.new do |s|
   s.source_files          = "BlocksKit_Mk"
   s.requires_arc          = true
 
-  # s.subspec 'Core' do |ss|
-  #   ss.source_files = 'BlocksKit_Mk/BlocksKit.h', "BlocksKit_Mk/BKDefines.h", 'BlocksKit_Mk/Core/*.{h,m}'
-  # end
+  s.subspec 'Core' do |ss|
+    ss.source_files = 'BlocksKit_Mk/BlocksKit.h', "BlocksKit_Mk/BKDefines.h", 'BlocksKit_Mk/Core/*.{h,m}'
+  end
 
   s.subspec 'DynamicDelegate' do |ss|
     ss.source_files = 'BlocksKit_Mk/DynamicDelegate/*.{h,m}', 'BlocksKit_Mk/DynamicDelegate/Foundation/*.{h,m}'
