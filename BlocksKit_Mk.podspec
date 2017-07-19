@@ -9,6 +9,7 @@ Pod::Spec.new do |s|
   s.license               = 'MIT'
   s.author                = { 'Markalex25' => 'markalex25@163.com'}
   s.source                = { :git => 'https://github.com/markalex25/BlocksKit.git', :tag => "v#{s.version}" }
+  s.source_files          = "BlocksKit_Mk"
   s.requires_arc          = true
 
   s.subspec 'Core' do |ss|
