@@ -51,5 +51,5 @@ Pod::Spec.new do |s|
   #   ss.ios.dependency 'BlocksKit_Mk/UIKit'
   # end
 
-  s.default_subspec = 'All'
+  s.default_subspec = 'DynamicDelegate'
 end
