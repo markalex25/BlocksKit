@@ -11,15 +11,6 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = '10.8'
   s.watchos.deployment_target = '2.0'
 
-  s.default_subspec = 'All'
-  s.subspec 'All' do |ss|
-    ss.dependency 'BlocksKit_Mk/Core'
-    ss.dependency 'BlocksKit_Mk/DynamicDelegate'
-    ss.ios.dependency 'BlocksKit_Mk/MessageUI'
-    ss.ios.dependency 'BlocksKit_Mk/QuickLook'
-    ss.ios.dependency 'BlocksKit_Mk/UIKit'
-  end
-
   s.subspec 'Core' do |ss|
     ss.source_files = 'BlocksKit_Mk/BlocksKit.h', "BlocksKit_Mk/BKDefines.h", 'BlocksKit_Mk/Core/*.{h,m}'
   end
@@ -50,4 +41,14 @@ Pod::Spec.new do |s|
     ss.platform = :ios
     ss.source_files = 'BlocksKit_Mk/BlocksKit+UIKit.h', 'BlocksKit_Mk/UIKit/*.{h,m}'
   end
+
+  s.subspec 'All' do |ss|
+    ss.dependency 'BlocksKit_Mk/Core'
+    ss.dependency 'BlocksKit_Mk/DynamicDelegate'
+    ss.ios.dependency 'BlocksKit_Mk/MessageUI'
+    ss.ios.dependency 'BlocksKit_Mk/QuickLook'
+    ss.ios.dependency 'BlocksKit_Mk/UIKit'
+  end
+
+  s.default_subspec = 'All'
 end

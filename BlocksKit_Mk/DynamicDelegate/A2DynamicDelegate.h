@@ -5,8 +5,8 @@
 
 #import "BKDefines.h"
 #import <Foundation/Foundation.h>
-#import <BlocksKit/NSObject+A2BlockDelegate.h>
-#import <BlocksKit/NSObject+A2DynamicDelegate.h>
+#import "BlocksKit/NSObject+A2BlockDelegate.h"
+#import "BlocksKit/NSObject+A2DynamicDelegate.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
