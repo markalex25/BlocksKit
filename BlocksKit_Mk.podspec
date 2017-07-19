@@ -1,15 +1,15 @@
 Pod::Spec.new do |s|
   s.name                  = 'BlocksKit_Mk'
-  s.version               = '2.2.7'
-  s.license               = 'MIT'
+  s.version               = '2.2.6'
+  s.ios.deployment_target = '6.0'
+  #s.osx.deployment_target = '10.8'
+  #s.watchos.deployment_target = '2.0'
   s.summary               = 'The Objective-C block utilities you always wish you had.'
   s.homepage              = 'https://github.com/markalex25/BlocksKit'
+  s.license               = 'MIT'
   s.author                = { 'Markalex25' => 'markalex25@163.com'}
   s.source                = { :git => 'https://github.com/markalex25/BlocksKit.git', :tag => "v#{s.version}" }
   s.requires_arc          = true
-  s.ios.deployment_target = '6.0'
-  s.osx.deployment_target = '10.8'
-  s.watchos.deployment_target = '2.0'
 
   s.subspec 'Core' do |ss|
     ss.source_files = 'BlocksKit_Mk/BlocksKit.h', "BlocksKit_Mk/BKDefines.h", 'BlocksKit_Mk/Core/*.{h,m}'
