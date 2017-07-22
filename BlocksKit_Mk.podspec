@@ -8,9 +8,9 @@ Pod::Spec.new do |s|
   s.homepage              = 'https://github.com/markalex25/BlocksKit'
   s.license               = 'MIT'
   s.author                = { 'Markalex25' => 'markalex25@163.com'}
-  s.social_media_url   = "http://weibo.com/markalex25"
+  s.social_media_url      = "http://weibo.com/markalex25"
   s.source                = { :git => 'https://github.com/markalex25/BlocksKit.git', :tag => "v#{s.version}" }
-  s.source_files  = "BlocksKit_Mk"
+  s.source_files          = "BlocksKit"
   s.requires_arc          = true
 
   s.default_subspec = 'All'
