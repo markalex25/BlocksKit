@@ -24,6 +24,6 @@
 //  THE SOFTWARE.
 //
 
-#import "BlocksKit.h"
+#import <BlocksKit/BlocksKit.h>
 
-#import "QLPreviewController+BlocksKit.h"
+#import <BlocksKit/QLPreviewController+BlocksKit.h>
