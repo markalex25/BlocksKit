@@ -25,7 +25,7 @@
 //  THE SOFTWARE.
 //
 
-#import "BlocksKit.h"
+#import <BlocksKit_Mk/BlocksKit.h>
 
-#import "MFMailComposeViewController+BlocksKit.h"
-#import "MFMessageComposeViewController+BlocksKit.h"
+#import <BlocksKit_Mk/MFMailComposeViewController+BlocksKit.h>
+#import <BlocksKit_Mk/MFMessageComposeViewController+BlocksKit.h>

@@ -33,23 +33,23 @@ FOUNDATION_EXPORT double BlocksKitVersionNumber;
 //! Project version string for BlocksKit.
 FOUNDATION_EXPORT const unsigned char BlocksKitVersionString[];
 
-#import "BKDefines.h"
-#import "BKMacros.h"
-#import "NSArray+BlocksKit.h"
-#import "NSDictionary+BlocksKit.h"
-#import "NSIndexSet+BlocksKit.h"
-#import "NSInvocation+BlocksKit.h"
-#import "NSNumber+BlocksKit.h"
-#import "NSMapTable+BlocksKit.h"
-#import "NSMutableArray+BlocksKit.h"
-#import "NSMutableDictionary+BlocksKit.h"
-#import "NSMutableIndexSet+BlocksKit.h"
-#import "NSMutableOrderedSet+BlocksKit.h"
-#import "NSMutableSet+BlocksKit.h"
-#import "NSObject+BKAssociatedObjects.h"
-#import "NSObject+BKBlockExecution.h"
-#import "NSObject+BKBlockObservation.h"
-#import "NSOrderedSet+BlocksKit.h"
-#import "NSSet+BlocksKit.h"
-#import "NSTimer+BlocksKit.h"
+#import <BlocksKit_Mk/BKDefines.h>
+#import <BlocksKit_Mk/BKMacros.h>
+#import <BlocksKit_Mk/NSArray+BlocksKit.h>
+#import <BlocksKit_Mk/NSDictionary+BlocksKit.h>
+#import <BlocksKit_Mk/NSIndexSet+BlocksKit.h>
+#import <BlocksKit_Mk/NSInvocation+BlocksKit.h>
+#import <BlocksKit_Mk/NSNumber+BlocksKit.h>
+#import <BlocksKit_Mk/NSMapTable+BlocksKit.h>
+#import <BlocksKit_Mk/NSMutableArray+BlocksKit.h>
+#import <BlocksKit_Mk/NSMutableDictionary+BlocksKit.h>
+#import <BlocksKit_Mk/NSMutableIndexSet+BlocksKit.h>
+#import <BlocksKit_Mk/NSMutableOrderedSet+BlocksKit.h>
+#import <BlocksKit_Mk/NSMutableSet+BlocksKit.h>
+#import <BlocksKit_Mk/NSObject+BKAssociatedObjects.h>
+#import <BlocksKit_Mk/NSObject+BKBlockExecution.h>
+#import <BlocksKit_Mk/NSObject+BKBlockObservation.h>
+#import <BlocksKit_Mk/NSOrderedSet+BlocksKit.h>
+#import <BlocksKit_Mk/NSSet+BlocksKit.h>
+#import <BlocksKit_Mk/NSTimer+BlocksKit.h>
 
