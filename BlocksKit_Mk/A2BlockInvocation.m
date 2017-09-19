@@ -66,16 +66,28 @@ NS_INLINE BOOL typesCompatible(const char *a, const char *b) {
 	if (!typesCompatible(signatureA.methodReturnType, signatureB.methodReturnType)) return NO;
 
 	NSMethodSignature *methodSignature = nil, *blockSignature = nil;
-	if (signatureA.numberOfArguments > signatureB.numberOfArguments) {
-		methodSignature = signatureA;
-		blockSignature = signatureB;
-	} else if (signatureB.numberOfArguments > signatureA.numberOfArguments) {
-		methodSignature = signatureB;
-		blockSignature = signatureA;
-	} else {
-		return NO;
-	}
+//    NSLog(@"signatureA.numberOfArguments:%i",signatureA.numberOfArguments);
+//    NSLog(@"signatureB.numberOfArguments:%i",signatureB.numberOfArguments);
+    methodSignature = signatureA;
+    blockSignature = signatureB;
+//    for(NSUInteger i = 0; i < signatureA.numberOfArguments; i++){
+//        NSLog(@"methodSignature%i %c", i, [methodSignature getArgumentTypeAtIndex:i]);
+//    }
+//    for(NSUInteger i = 0; i < signatureB.numberOfArguments; i++){
+//        NSLog(@"blockSignature%i %c", i, [blockSignature getArgumentTypeAtIndex:i]);
+//    }
 
+    
+//	if (signatureA.numberOfArguments > signatureB.numberOfArguments) {
+//		methodSignature = signatureA;
+//		blockSignature = signatureB;
+//	} else if (signatureB.numberOfArguments > signatureA.numberOfArguments) {
+//		methodSignature = signatureB;
+//		blockSignature = signatureA;
+//	} else {
+//		return NO;
+//	}
+//
 	NSUInteger numberOfArguments = methodSignature.numberOfArguments;
 	for (NSUInteger i = 2; i < numberOfArguments; i++) {
         if (!typesCompatible([methodSignature getArgumentTypeAtIndex:i], [blockSignature getArgumentTypeAtIndex:i - 1])) {
